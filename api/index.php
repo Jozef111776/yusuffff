@@ -3,7 +3,7 @@ include('config.php');
 if(isset($_POST['btnkaydet']))
 {
 $isim=$_POST["gelenisim"];
-$numara=$_POST["gelenno"];
+$numara=$_POST["gelennumara"];
 $sorgu="insert into ogrenciler(isim,numara) values('$isim','$numara')";
 $komut=mysqli_query($baglanti,$sorgu);
 if($komut)
