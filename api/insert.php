@@ -1,5 +1,5 @@
 <?php
-$baglanti=mysqli_connect("db4free.net:3306","yusufaaa","yusufali*","05418149164");
+$baglanti=mysqli_connect("db4free.net:3306","yusufaaa","05418149164*","yusufali");
 
 $name=$_POST["gelenisim"];
 $no=$_POST["gelenno"];
